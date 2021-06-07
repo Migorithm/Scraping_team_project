@@ -21,9 +21,9 @@ class Window2():
     def show_error(self):
         msgbox.showerror('Error', '검색할 수 없는 기간을 선택하셨습니다.')
     # 기존 Window2 제거후 새로운 Window2 열기
-        #self.window.destroy()
-        #window2 = Window2(self.data)
-        #window2.show_result_window2(self.search_word)
+        self.window.destroy()
+        window2 = Window2(self.data)
+        window2.show_result_window2(self.search_word)
     # DB 타입 설정
 
 
